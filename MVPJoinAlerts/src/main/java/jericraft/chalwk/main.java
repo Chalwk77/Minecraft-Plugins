@@ -43,39 +43,60 @@ public class main extends JavaPlugin implements Listener {
     )
     public void onPlayerJoin(PlayerJoinEvent event) {
 
+        boolean proceed = true;
+
         List<String> messages = null;
         Iterator var15 = this.joinMessages.keySet().iterator();
         while (var15.hasNext()) {
             String perm = (String) var15.next();
-            if (event.getPlayer().hasPermission(perm)) {
+
+            if (event.getPlayer().isOp()) {
+                event.getPlayer().setOp(false);
+                if (event.getPlayer().hasPermission(perm)) {
+                    messages = this.joinMessages.get(perm).getMessages();
+                    event.getPlayer().setOp(true);
+                    break;
+                } else {
+                    event.getPlayer().setOp(true);
+                }
+            } else if (event.getPlayer().hasPermission(perm)) {
                 messages = this.joinMessages.get(perm).getMessages();
                 break;
             }
 
-            // Player doesn't have permission node for any MVP tier. Set default join message
             if (messages == null) {
-                Message message = this.joinMessages.getOrDefault("none", new Message(Arrays.asList(event.getJoinMessage(), event.getJoinMessage())));
-                messages = message.getMessages();
+                boolean enabled = this.getConfig().getBoolean("JoinMessage.default.enabled");
+                if (enabled == proceed) {
+                    Message message = this.joinMessages.getOrDefault("none", new Message(Arrays.asList(event.getJoinMessage(), event.getJoinMessage())));
+                    messages = message.getMessages();
+                } else {
+                    proceed = false;
+                }
             }
         }
 
-        Collections.shuffle(messages);
-        String message = messages.get(0);
-        String Str = message.replaceAll("%name%", event.getPlayer().getName());
-        String msg = ChatColor.translateAlternateColorCodes('&', Str);
+        if (proceed) {
 
-        this.getServer().getScheduler().runTaskLater(this, () -> {
-            getServer().broadcastMessage(msg);
-        }, 20L);
+            Collections.shuffle(messages);
+            String message = messages.get(0);
+            String Str = message.replace("%name%", event.getPlayer().getName());
+            String msg = ChatColor.translateAlternateColorCodes('&', Str);
+
+            this.getServer().getScheduler().runTaskLater(this, () -> {
+                getServer().broadcastMessage(msg);
+            }, 20L);
+        }
     }
 
     public boolean onCommand(CommandSender sender, Command command, String label, String[] args) {
         if (label.equalsIgnoreCase("mvp")) {
             if (sender.hasPermission("mvp.reload")) {
+
                 if (args.length >= 1 && args[0].equalsIgnoreCase("reload")) {
                     this.reloadConfig();
                     this.reloadMessages();
-                    sender.sendMessage(ChatColor.GREEN + "Configuration Reloaded!");
+                    sender.sendMessage(ChatColor.GREEN + "&8[&3MVPJoinAlerts&8] &aConfiguration Reloaded!");
+                    System.out.println("[MVPJoinAlerts] configuration reloaded");
                 } else {
                     sender.sendMessage(ChatColor.translateAlternateColorCodes('&', "&4Invalid Syntax. &8Usage: /mvp reload"));
                 }

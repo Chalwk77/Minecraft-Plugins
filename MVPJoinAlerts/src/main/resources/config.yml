@@ -1,5 +1,6 @@
 JoinMessage:
   default:
+    enabled: false
     permission: "none"
     message:
       - "&6%name% &8joined the server!"
