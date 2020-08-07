@@ -1,0 +1,36 @@
+name: ISpy
+version: ${project.version}
+main: jericraft.chalwk.ispy
+api-version: 1.16
+authors: [Chalwk]
+description: Spy on everything!
+website: www.jericraft.enjin.com
+commands:
+  ispy:
+    description: Shows ISPY info.
+    usage: /<command>
+permissions:
+  ispy.*:
+    description: Access to all ISPY permissions.
+    default: op
+    children:
+      ispy.cmds: true
+      ispy.noticecmd: true
+      ispy.noticesign: true
+      ispy.noticeanvil: true
+      ispy.noticebooks: true
+  ispy.cmds:
+    description: Allows you to use all /ispy commands
+    default: op
+  ispy.noticecmd:
+    description: Receive a message when a player issues a command.
+    default: op
+  ispy.noticesign:
+    description: Receive a message when a player puts a sign with text.
+    default: op
+  ispy.noticeanvil:
+    description: Receive a message when a player renames item in anvil.
+    default: op
+  ispy.noticebook:
+    description: Receive a message when a player writes in a book.
+    default: op
