@@ -1,0 +1,110 @@
+########################################################
+#=======================================================
+#  iSpy plugin config
+#  Copyright 2020 Chalwk (Jericho Crosby), jericho.crosby227@gmail.com
+#=======================================================
+########################################################
+
+### messages ###
+Prefix: '&3[&6&liSpy&3] '
+
+#------------------------------------------#
+PrefixCommand: '&3[&6&lCMD-SPY&3] '
+prefixBook: '&3[&6&lBOOK-SPY&3] '
+PrefixSign: '&3[&6&lSIGN-SPY&3] '
+PrefixAnvil: '&3[&6&lANVIL-SPY&3] '
+BookOutput: '&9%player%&f: &e%text%'
+#------------------------------------------#
+
+PlayerUsedCommand: '&9%player%&f: &e%cmd%'
+PlayerPlaceSign: '&9%player%&f: &e%line1% &c&l¤ &e%line2% &c&l¤ &e%line3% &c&l¤ &e%line4%'
+PlayerUsedAnvil: '&c%player% &9renamed &c%item% &9to&f: &b%renamed%'
+DontHavePerm: '&cYou do not have permission to execute that command.'
+HelpCommands: '&7Commands: &a/ispy cmd'
+HelpCommandsLabel: '&2&liSpy'
+HelpInfo: '&3/ispy &7- shows iSpy info'
+HelpCmd: '&3/ispy cmd &7- shows all CommandSpy commands'
+HelpVersion: '&3/ispy version &7- shows CommandSpy version'
+HelpReload: '&3/ispy reload &7- reloads the plugin'
+HelpAllow: '&3/ispy allow &7- enable/disable log messages in chat'
+ReloadPlugin: '&7Reload successful!'
+
+# /ispy enable/disable
+onEnable: ' is now enabled for you!'
+onDisable: ' is now disabled for you!'
+alreadyEnabled: ' is already enabled.'
+alreadyDisabled: ' is already disabled.'
+
+MessagesDisabled: '&7Logging is disabled!'
+MessagesEnabled: '&7Logging is enabled!'
+
+
+OnPluginEnable: '[iSpy] Enabling iSpy'
+OnPluginDisable: '[iSpy] Disabling iSpy'
+
+#------------------------------------------#
+PrefixConsoleCommand: '[CMD SPY] '
+PrefixConsoleSign: '[SIGN SPY] '
+PrefixConsoleAnvil: '[ANVIL SPY] '
+PrefixConsoleBook: '[BOOK SPY] '
+#------------------------------------------#
+
+ConsoleNoticeCmd: '%player%: %cmd%'
+ConsoleNoticeBook: '%player%: %text%'
+ConsoleNoticeSigns: '%player%: %line1% / %line2% / %line3% / %line4% '
+ConsoleNoticeAnvils: '%player% renamed %item% to: %renamed%'
+
+### commands which are not logged ###
+HiddenCommands:
+  - /lag
+  - /msg
+  - /w
+  - /r
+  - /m
+  - /t
+  - /whisper
+  - /emsg
+  - /tell
+  - /er
+  - /reply
+  - /ereply
+  - /email
+  - /action
+  - /describe
+  - /eme
+  - /eaction
+  - /edescribe
+  - /etell
+  - /ewhisper
+  - /pm
+  - /rcmd
+  - /mycmd-reload all
+  - /plm
+  - /pex
+  - /v
+  - /vm
+  - /vr
+  - /vanish
+  - /pv
+  - /afp
+  - /af playerchat
+  - /schem
+  - //schem
+  - /troll
+  - /whitelist
+  - /announceconnected
+  - /hc
+  - /pgs
+
+
+### things which will be logged into chat ###
+LogCommands: true
+LogSigns: true
+LogAnvils: true
+LogBooks: true
+
+### things which will be logged into console ###
+ConsoleCommands: true
+ConsoleAnvils: true
+ConsoleSigns: true
+ConsoleBooks: true
