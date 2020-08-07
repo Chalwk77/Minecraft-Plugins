@@ -7,10 +7,12 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="iSpy" />
+        <module name="MVPJoinAlerts" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="iSpy" target="1.8" />
+      <module name="MVPJoinAlerts" target="1.8" />
       <module name="Random J" target="1.8" />
     </bytecodeTargetLevel>
   </component>

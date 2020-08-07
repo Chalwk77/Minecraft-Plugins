@@ -1,0 +1,15 @@
+name: MVPJoinAlerts
+version: ${project.version}
+main: jericraft.chalwk.main
+api-version: 1.16
+authors: [Chalwk]
+description: This plugin will automatically broadcast a special message when an MVP joins!
+website: www.jericraft.enjin.com
+commands:
+  mvp:
+    description: Reload the plugin.
+    usage: /<command> reload
+permissions:
+  mvp.reload:
+    description: Grants permission to reload the plugin
+    default: op

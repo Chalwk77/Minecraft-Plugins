@@ -1,0 +1,9 @@
+JoinMessage:
+  default:
+    permission: "none"
+    message:
+      - "&6%name% &8joined the server!"
+  VIP:
+    permission: "mvp.vip"
+    message:
+      - "&8[&3MVP&8] &2%name% joined the server!"
