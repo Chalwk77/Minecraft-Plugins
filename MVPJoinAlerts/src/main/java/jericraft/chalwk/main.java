@@ -1,3 +1,6 @@
+// MVPJoinAlert entry point
+// Copyright 2020, Jericho Crosby, <jericho.crosby227@gmail.com>
+
 package jericraft.chalwk;
 
 import java.util.*;

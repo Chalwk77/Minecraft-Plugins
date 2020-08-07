@@ -1,3 +1,6 @@
+# MVPJoinAlert config.yml
+# Copyright 2020, Jericho Crosby, <jericho.crosby227@gmail.com>
+
 JoinMessage:
   default:
     enabled: false
