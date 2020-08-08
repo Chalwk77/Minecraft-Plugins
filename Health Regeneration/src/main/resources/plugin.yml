@@ -1,0 +1,7 @@
+name: HealthRegeneration
+version: ${project.version}
+main: jericraft.chalwk.main
+api-version: 1.16
+authors: [Chalwk]
+description: Continuously regenerate health in small increments until full
+website: www.jericraft.enjin.com
