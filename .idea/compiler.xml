@@ -8,11 +8,13 @@
         <outputRelativeToContentRoot value="true" />
         <module name="iSpy" />
         <module name="MVPJoinAlerts" />
+        <module name="Expressions" />
         <module name="WordShuffler" />
         <module name="Health Regeneration" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="Expressions" target="1.8" />
       <module name="Health Regeneration" target="1.8" />
       <module name="iSpy" target="1.8" />
       <module name="MVPJoinAlerts" target="1.8" />
