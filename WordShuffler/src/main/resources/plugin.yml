@@ -1,0 +1,7 @@
+name: WordShuffler
+version: ${project.version}
+main: jericraft.chalwk.main
+api-version: 1.16
+authors: [Chalwk]
+description: Player chat messages will be shuffled...
+website: www.jericraft.enjin.com
