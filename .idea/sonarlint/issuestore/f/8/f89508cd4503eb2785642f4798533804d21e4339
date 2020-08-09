@@ -1,0 +1,22 @@
+
+
+java:S1186"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(â¶œ48‘ì¬‹½.
+{
+java:S1104"YMake no_permission a static final constant or non-public and provide accessors if needed.(£œË™úÿÿÿÿ8³Ê‹½.
+x
+java:S1104"[Make permission_node a static final constant or non-public and provide accessors if needed.(¥öÇ°8ÏÂË‹½.
+x
+java:S1104"VMake toggle_off a static final constant or non-public and provide accessors if needed.(æüÚäşÿÿÿÿ8æİË‹½.
+v	java:S116"ZRename this field "permission_node" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¥öÇ°8ÏÂË‹½.
+r
+java:S1104"UMake toggle_on a static final constant or non-public and provide accessors if needed.(ØÖĞ©8ÇĞ‹½.
+y	java:S116"XRename this field "no_permission" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(£œË™úÿÿÿÿ8³Ê‹½.
+\
+java:S1161":Add the "@Override" annotation above this method signature(âºˆ¾úÿÿÿÿ8‘ì¬‹½.
+V
+java:S1161":Add the "@Override" annotation above this method signature(â¶œ48‘ì¬‹½.
+v	java:S116"URename this field "toggle_off" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(æüÚäşÿÿÿÿ8æİË‹½.
+p	java:S116"TRename this field "toggle_on" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ØÖĞ©8ÇĞ‹½.
+V
+java:S1161":Add the "@Override" annotation above this method signature(´Î‹H8‘ì¬‹½.
+n	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(…Ä¸¥úÿÿÿÿ8àë­‹½.
