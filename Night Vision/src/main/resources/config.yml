@@ -1,5 +1,5 @@
 settings:
   permission_node: 'nightvision.use'
-  toggle_off: '&5NightVision enabled'
-  toggle_on: '&5NightVision disabled'
+  toggle_on: '&5NightVision enabled'
+  toggle_off: '&5NightVision disabled'
   no_permission: '&4Insufficient Permission'
