@@ -1,6 +1,6 @@
 name: MVPJoinAlerts
 version: ${project.version}
-main: jericraft.chalwk.main
+main: jericraft.chalwk.mvpjoinalerts
 api-version: 1.16
 authors: [Chalwk]
 description: This plugin will automatically broadcast a special message when an MVP joins!

@@ -1,12 +1,12 @@
 
-\
-java:S1161":Add the "@Override" annotation above this method signature(âºˆ¾úÿÿÿÿ8¾ø¦è¼.
-Z
-java:S1197%"8Move the array designator from the variable to the type.(ª½¶ëùÿÿÿÿ8…æ©è¼.
+i	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(å¨ÁÖ8€„¦è¼.
 ;
 java:S2119 "Save and re-use this "Random".(¡Å”¦8¨°‹é¼.
-V
-java:S1161":Add the "@Override" annotation above this method signature(â¶œ48Éù‚é¼.
-i	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(å¨ÁÖ8€„¦è¼.
+Z
+java:S1197%"8Move the array designator from the variable to the type.(ª½¶ëùÿÿÿÿ8…æ©è¼.
 
 java:S1192"kDefine a constant instead of duplicating this literal "+----------------------------------------+" 4 times.(Ÿ˜¶Šüÿÿÿÿ8­À¿è¼.
+\
+java:S1161":Add the "@Override" annotation above this method signature(âºˆ¾úÿÿÿÿ8¾ø¦è¼.
+V
+java:S1161":Add the "@Override" annotation above this method signature(â¶œ48Éù‚é¼.

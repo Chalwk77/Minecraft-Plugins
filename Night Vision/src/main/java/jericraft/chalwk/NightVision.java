@@ -9,7 +9,7 @@ import org.bukkit.plugin.java.JavaPlugin;
 import org.bukkit.potion.PotionEffect;
 import org.bukkit.potion.PotionEffectType;
 
-public class main extends JavaPlugin implements Listener {
+public class NightVision extends JavaPlugin implements Listener {
 
     @Override
     public void onEnable() {

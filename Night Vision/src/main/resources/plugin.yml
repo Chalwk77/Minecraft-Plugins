@@ -1,6 +1,6 @@
 name: NightVision
 version: ${project.version}
-main: jericraft.chalwk.main
+main: jericraft.chalwk.NightVision
 api-version: 1.16
 authors: [Chalwk]
 description: Toggle Night Vision on or off with a simple command

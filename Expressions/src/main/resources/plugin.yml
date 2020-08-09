@@ -1,6 +1,6 @@
 name: Expressions
 version: ${project.version}
-main: jericraft.chalwk.main
+main: jericraft.chalwk.Expressions
 api-version: 1.16
 authors: [Chalwk]
 description: Want to express your rage, taunt your opponents or cuss in a family-friendly-ish way?

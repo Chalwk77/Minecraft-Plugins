@@ -9,7 +9,7 @@ import org.bukkit.event.player.AsyncPlayerChatEvent;
 import org.bukkit.plugin.PluginManager;
 import org.bukkit.plugin.java.JavaPlugin;
 
-public final class main extends JavaPlugin implements Listener {
+public final class WordShuffler extends JavaPlugin implements Listener {
 
     public void onEnable() {
         this.getServer().getConsoleSender().sendMessage(ChatColor.GREEN + "+----------------------------------------+");

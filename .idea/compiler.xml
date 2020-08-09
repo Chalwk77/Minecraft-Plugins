@@ -8,16 +8,20 @@
         <outputRelativeToContentRoot value="true" />
         <module name="iSpy" />
         <module name="MVPJoinAlerts" />
+        <module name="HealCommand" />
         <module name="WordShuffler" />
         <module name="Night Vision" />
         <module name="SpawnWhereKilled" />
         <module name="Expressions" />
+        <module name="BlockDuplicateIPs" />
         <module name="Health Regeneration" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="BlockDuplicateIPs" target="1.8" />
       <module name="CommandManager" target="1.8" />
       <module name="Expressions" target="1.8" />
+      <module name="HealCommand" target="1.8" />
       <module name="Health Regeneration" target="1.8" />
       <module name="iSpy" target="1.8" />
       <module name="MVPJoinAlerts" target="1.8" />

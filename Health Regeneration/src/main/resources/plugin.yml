@@ -1,6 +1,6 @@
 name: HealthRegeneration
 version: ${project.version}
-main: jericraft.chalwk.main
+main: jericraft.chalwk.HealthRegeneration
 api-version: 1.16
 authors: [Chalwk]
 description: Continuously regenerate health in small increments until full

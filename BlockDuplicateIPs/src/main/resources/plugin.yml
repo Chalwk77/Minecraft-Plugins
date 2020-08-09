@@ -1,0 +1,7 @@
+name: BlockDuplicateIPs
+version: ${project.version}
+main: jericraft.chalwk.BlockDuplicateIPs
+api-version: 1.16
+authors: [Chalwk]
+description: Prevent mulciple connections with the same IP from connecting to the server
+website: www.jericraft.enjin.com
