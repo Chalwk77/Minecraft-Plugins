@@ -3,5 +3,13 @@ version: ${project.version}
 main: jericraft.chalwk.main
 api-version: 1.16
 authors: [Chalwk]
-description: Toggle nightvision on or off with simple command
+description: Toggle Night Vision on or off with a simple command
 website: www.jericraft.enjin.com
+commands:
+  nv:
+    description: Toggles Night Vision on or off
+    usage: /<command>
+permissions:
+  nightvision.use:
+    description: Allows the use of the Night Vision Command
+    default: op

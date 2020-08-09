@@ -1,4 +1,5 @@
 settings:
+  command: 'nv'
   permission_node: 'nightvision.use'
   toggle_on: '&5NightVision enabled'
   toggle_off: '&5NightVision disabled'

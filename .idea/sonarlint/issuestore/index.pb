@@ -37,3 +37,13 @@ d
 4Expressions/src/main/java/jericraft/chalwk/main.java,d\9\d9b0ee8665b32686af2a88d503037b24821fcedf
 i
 9SpawnWhereKilled/src/main/java/jericraft/chalwk/main.java,b\0\b089f4efabbed74d0bff6b63590d6aa3c9dd6832
+G
+Night Vision/.gitignore,5\7\574795380cdabd2f2e7af6dc6690cd5691ff1a8b
+D
+Night Vision/pom.xml,3\e\3e6ebda43d8c2c73ebee05c61c6585ef35475074
+^
+.SpawnWhereKilled/src/main/resources/plugin.yml,e\e\ee2331471688e54a9102559252e6d998375c282f
+H
+SpawnWhereKilled/pom.xml,6\d\6df40cbfcaabc33867adf2477066811697aec18f
+e
+5Night Vision/src/main/java/jericraft/chalwk/main.java,f\8\f89508cd4503eb2785642f4798533804d21e4339

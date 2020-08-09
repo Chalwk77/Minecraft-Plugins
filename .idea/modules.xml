@@ -11,6 +11,7 @@
       <module fileurl="file://$PROJECT_DIR$/SpawnWhereKilled/SpawnWhereKilled.iml" filepath="$PROJECT_DIR$/SpawnWhereKilled/SpawnWhereKilled.iml" />
       <module fileurl="file://$PROJECT_DIR$/WordShuffler/WordShuffler.iml" filepath="$PROJECT_DIR$/WordShuffler/WordShuffler.iml" />
       <module fileurl="file://$PROJECT_DIR$/iSpy/iSpy.iml" filepath="$PROJECT_DIR$/iSpy/iSpy.iml" />
+      <module fileurl="file://$PROJECT_DIR$/test/test.iml" filepath="$PROJECT_DIR$/test/test.iml" />
     </modules>
   </component>
 </project>
