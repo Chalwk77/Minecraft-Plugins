@@ -6,7 +6,9 @@
       <module fileurl="file://$PROJECT_DIR$/Health Regeneration/Health Regeneration.iml" filepath="$PROJECT_DIR$/Health Regeneration/Health Regeneration.iml" />
       <module fileurl="file://$PROJECT_DIR$/MVPJoinAlerts/MVPJoinAlerts.iml" filepath="$PROJECT_DIR$/MVPJoinAlerts/MVPJoinAlerts.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/Minecraft-Plugins.iml" filepath="$PROJECT_DIR$/.idea/Minecraft-Plugins.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Night Vision/Night Vision.iml" filepath="$PROJECT_DIR$/Night Vision/Night Vision.iml" />
       <module fileurl="file://$PROJECT_DIR$/Plugins/Plugins.iml" filepath="$PROJECT_DIR$/Plugins/Plugins.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SpawnWhereKilled/SpawnWhereKilled.iml" filepath="$PROJECT_DIR$/SpawnWhereKilled/SpawnWhereKilled.iml" />
       <module fileurl="file://$PROJECT_DIR$/WordShuffler/WordShuffler.iml" filepath="$PROJECT_DIR$/WordShuffler/WordShuffler.iml" />
       <module fileurl="file://$PROJECT_DIR$/iSpy/iSpy.iml" filepath="$PROJECT_DIR$/iSpy/iSpy.iml" />
     </modules>

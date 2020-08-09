@@ -1,0 +1,7 @@
+name: NightVision
+version: ${project.version}
+main: jericraft.chalwk.main
+api-version: 1.16
+authors: [Chalwk]
+description: Toggle nightvision on or off with simple command
+website: www.jericraft.enjin.com
