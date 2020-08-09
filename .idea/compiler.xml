@@ -8,7 +8,6 @@
         <outputRelativeToContentRoot value="true" />
         <module name="iSpy" />
         <module name="MVPJoinAlerts" />
-        <module name="test" />
         <module name="WordShuffler" />
         <module name="Night Vision" />
         <module name="SpawnWhereKilled" />
@@ -17,6 +16,7 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="CommandManager" target="1.8" />
       <module name="Expressions" target="1.8" />
       <module name="Health Regeneration" target="1.8" />
       <module name="iSpy" target="1.8" />
