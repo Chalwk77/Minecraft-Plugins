@@ -1,0 +1,7 @@
+
+I
+java:S1444	",Make this "public static config" field final(†ù˜Ž8±£¢Ò½.
+o
+java:S1104	"RMake config a static final constant or non-public and provide accessors if needed.(†ù˜Ž8±£¢Ò½.
+S
+java:S2696"6Make the enclosing method "static" or remove this set.(ùž°¤8±£¢Ò½.

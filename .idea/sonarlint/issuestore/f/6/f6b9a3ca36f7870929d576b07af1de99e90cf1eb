@@ -1,0 +1,22 @@
+
+J
+java:S3740)"/Provide the parametrized type for this generic.(ýÛÿ°üÿÿÿÿ
+i
+java:S3776‰"RRefactor this method to reduce its Cognitive Complexity from 47 to the 15 allowed.(é¬ØÏ
+N	java:S106T"9Replace this use of System.out or System.err by a logger.(¢‡œ‘
+E
+java:S3740x"/Provide the parametrized type for this generic.(Â¨ÌÚ
+S	java:S1064"9Replace this use of System.out or System.err by a logger.(ßŠÏ²þÿÿÿÿ
+K
+java:S3740ž"/Provide the parametrized type for this generic.(õÆó£úÿÿÿÿ
+T	java:S106›"9Replace this use of System.out or System.err by a logger.(ùÆçØýÿÿÿÿ
+g	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(‚ê¶Šùÿÿÿÿ
+N	java:S106u"9Replace this use of System.out or System.err by a logger.(—Ý«Ò
+d
+java:S11924"IDefine a constant instead of duplicating this literal "%player%" 8 times.(ßŠÏ²þÿÿÿÿ
+~
+java:S1157G"cReplace these toUpperCase()/toLowerCase() and equals() calls with a single equalsIgnoreCase() call.(ÍÎ Ãúÿÿÿÿ
+J
+java:S3740W"/Provide the parametrized type for this generic.( žäÿüÿÿÿÿ
+E
+java:S3740e"/Provide the parametrized type for this generic.(·¥”ç

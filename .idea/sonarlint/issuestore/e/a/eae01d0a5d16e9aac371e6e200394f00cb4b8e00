@@ -1,0 +1,17 @@
+
+l	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Œ³ÿJ8ÖĞñ«½.
+I
+java:S1481""'Remove this unused "ip" local variable.(ìë¡ˆıÿÿÿÿ8Ì†ú«½.
+a
+java:S1854"?Remove this useless assignment to local variable "NewPlayerIP".(„âÊïûÿÿÿÿ8“Îï«½.
+r	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(„âÊïûÿÿÿÿ8éò«½.
+X
+java:S1854""6Remove this useless assignment to local variable "ip".(ìë¡ˆıÿÿÿÿ8Ì†ú«½.
+\
+java:S1161":Add the "@Override" annotation above this method signature(âºˆ¾úÿÿÿÿ8¦Ğ…«½.
+V
+java:S1161":Add the "@Override" annotation above this method signature(â¶œ48¦Ğ…«½.
+
+java:S1186"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(â¶œ48¦Ğ…«½.
+R
+java:S1481"0Remove this unused "NewPlayerIP" local variable.(„âÊïûÿÿÿÿ8úÁô«½.

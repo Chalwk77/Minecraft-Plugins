@@ -1,0 +1,20 @@
+
+U
+java:S3516*"9Refactor this method to not always return the same value.(´Î‹H8…¼•¬½.
+{
+java:S1104&"YMake no_permission a static final constant or non-public and provide accessors if needed.(£œË™úÿÿÿÿ8ıÚ’½.
+p	java:S116#"TRename this field "toggle_on" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ØÖĞ©8ıÚ’½.
+x
+java:S1104$"VMake toggle_off a static final constant or non-public and provide accessors if needed.(æüÚäşÿÿÿÿ8ıÚ’½.
+v	java:S116$"URename this field "toggle_off" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(æüÚäşÿÿÿÿ8ıÚ’½.
+r
+java:S1104#"UMake toggle_on a static final constant or non-public and provide accessors if needed.(ØÖĞ©8Úë“½.
+y	java:S116&"XRename this field "no_permission" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(£œË™úÿÿÿÿ8ıÚ’½.
+|
+java:S1104'"ZMake custom_command a static final constant or non-public and provide accessors if needed.(©°ÛŸùÿÿÿÿ8ıÚ’½.
+x
+java:S1104%"[Make permission_node a static final constant or non-public and provide accessors if needed.(¥öÇ°8ıÚ’½.
+
+java:S1192"kDefine a constant instead of duplicating this literal "+----------------------------------------+" 4 times.(Ÿ˜¶Šüÿÿÿÿ8”ÜÕ‘½.
+z	java:S116'"YRename this field "custom_command" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(©°ÛŸùÿÿÿÿ8ıÚ’½.
+v	java:S116%"ZRename this field "permission_node" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¥öÇ°8ıÚ’½.

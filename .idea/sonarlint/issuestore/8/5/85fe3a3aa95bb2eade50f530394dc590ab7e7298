@@ -1,0 +1,14 @@
+
+
+java:S1192"kDefine a constant instead of duplicating this literal "+----------------------------------------+" 4 times.(Ÿ˜¶Šüÿÿÿÿ8²³ñë¼.
+\
+java:S1161":Add the "@Override" annotation above this method signature(âºˆ¾úÿÿÿÿ8²³ñë¼.
+j	java:S100"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(äøÍı8²³ñë¼.
+Q
+java:S3740"/Provide the parametrized type for this generic.(ƒõ’åøÿÿÿÿ8Ä«Ëÿ¼.
+<
+java:S1700"Rename field "expressions"(ƒõ’åøÿÿÿÿ8˜°‰«½.
+V
+java:S1161)":Add the "@Override" annotation above this method signature(â¶œ48²³ñë¼.
+Q
+java:S28647"4Iterate over the "entrySet" instead of the "keySet".(ïŠÃê8€ÖÔÿ¼.
