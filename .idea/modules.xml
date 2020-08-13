@@ -5,8 +5,10 @@
       <module fileurl="file://$PROJECT_DIR$/BlockDuplicateIPs/BlockDuplicateIPs.iml" filepath="$PROJECT_DIR$/BlockDuplicateIPs/BlockDuplicateIPs.iml" />
       <module fileurl="file://$PROJECT_DIR$/Expressions/Expressions.iml" filepath="$PROJECT_DIR$/Expressions/Expressions.iml" />
       <module fileurl="file://$PROJECT_DIR$/HealCommand/HealCommand.iml" filepath="$PROJECT_DIR$/HealCommand/HealCommand.iml" />
+      <module fileurl="file://$PROJECT_DIR$/HealMe/HealMe.iml" filepath="$PROJECT_DIR$/HealMe/HealMe.iml" />
       <module fileurl="file://$PROJECT_DIR$/Health Regeneration/Health Regeneration.iml" filepath="$PROJECT_DIR$/Health Regeneration/Health Regeneration.iml" />
       <module fileurl="file://$PROJECT_DIR$/MVPJoinAlerts/MVPJoinAlerts.iml" filepath="$PROJECT_DIR$/MVPJoinAlerts/MVPJoinAlerts.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Magnet/Magnet.iml" filepath="$PROJECT_DIR$/Magnet/Magnet.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/Minecraft-Plugins.iml" filepath="$PROJECT_DIR$/.idea/Minecraft-Plugins.iml" />
       <module fileurl="file://$PROJECT_DIR$/Night Vision/Night Vision.iml" filepath="$PROJECT_DIR$/Night Vision/Night Vision.iml" />
       <module fileurl="file://$PROJECT_DIR$/Plugins/Plugins.iml" filepath="$PROJECT_DIR$/Plugins/Plugins.iml" />

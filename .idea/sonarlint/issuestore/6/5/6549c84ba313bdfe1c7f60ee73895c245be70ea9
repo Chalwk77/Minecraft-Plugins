@@ -1,22 +1,22 @@
 
-L
-java:S3740"/Provide the parametrized type for this generic.(»ı¿8ä³Í½.
-t
-java:S3776"RRefactor this method to reduce its Cognitive Complexity from 37 to the 15 allowed.(¼ß…ıüÿÿÿÿ8ä³Í½.
 t
 java:S1104"WMake iSpyEnabled a static final constant or non-public and provide accessors if needed.(»ı¿8ä³Í½.
-U
-java:S1161":Add the "@Override" annotation above this method signature(âºˆ¾úÿÿÿÿ
+g	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(ŞŠ¸öşÿÿÿÿ
 
 java:S1319"sThe type of the "iSpyEnabled" object should be an interface such as "Map" rather than the implementation "HashMap".(»ı¿8ä³Í½.
-V
-java:S2201L"4The return value of "equalsIgnoreCase" must be used.(ù§¤Ÿşÿÿÿÿ8ä³Í½.
+t
+java:S3776"RRefactor this method to reduce its Cognitive Complexity from 37 to the 15 allowed.(¼ß…ıüÿÿÿÿ8ä³Í½.
+L
+java:S3740"/Provide the parametrized type for this generic.(»ı¿8ä³Í½.
 ‚
 java:S1192%"`Define a constant instead of duplicating this literal "&8&m===========================" 6 times.(Óö»çÿÿÿÿÿ8ä³Í½.
+V
+java:S4973B"9Use the "equals" method if value comparison was intended.(Ï§İ8ä³Í½.
 V
 java:S49737"9Use the "equals" method if value comparison was intended.(™€ŸÛ8ä³Í½.
 U
 java:S1161":Add the "@Override" annotation above this method signature(¼ß…ıüÿÿÿÿ
-g	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(ŞŠ¸öşÿÿÿÿ
+U
+java:S1161":Add the "@Override" annotation above this method signature(âºˆ¾úÿÿÿÿ
 V
-java:S4973B"9Use the "equals" method if value comparison was intended.(Ï§İ8ä³Í½.
+java:S2201L"4The return value of "equalsIgnoreCase" must be used.(ù§¤Ÿşÿÿÿÿ8ä³Í½.

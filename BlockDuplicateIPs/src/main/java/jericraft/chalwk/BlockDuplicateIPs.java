@@ -7,13 +7,12 @@ import org.bukkit.event.Listener;
 import org.bukkit.event.player.PlayerJoinEvent;
 import org.bukkit.plugin.java.JavaPlugin;
 
+import java.util.UUID;
+
 public final class BlockDuplicateIPs extends JavaPlugin implements Listener {
 
     public void onEnable() {
-        System.out.println("++++++++++++++++++++++++++++++++++++++++++");
-        System.out.println("BLOCK DUPLICATE IP ADDRESSES ENABLED");
-        System.out.println("++++++++++++++++++++++++++++++++++++++++++");
-
+        this.getServer().getPluginManager().registerEvents(this, this);
     }
 
     public void onDisable() {
@@ -24,13 +23,20 @@ public final class BlockDuplicateIPs extends JavaPlugin implements Listener {
             ignoreCancelled = true
     )
     public void onPlayerJoin(PlayerJoinEvent event) {
-        for (Player player : Bukkit.getServer().getOnlinePlayers()) {
-            String ip = getIP(player);
-            System.out.println(player.getDisplayName() + " IP ADDRESS: " + ip);
+
+        Player NewPlayer = event.getPlayer();
+        UUID p1uuid = NewPlayer.getUniqueId();
+        String NewPlayerIP = getIP(NewPlayer);
+
+        for (Player p : Bukkit.getServer().getOnlinePlayers()) {
+            UUID p2uuid = p.getUniqueId();
+            if (p2uuid != p1uuid) {
+                String ip = getIP(p);
+            }
         }
     }
 
-    public static String getIP(Player player) {
-        return player.getAddress().getHostName();
+    public static String getIP(Player p) {
+        return p.getAddress().getAddress().getHostAddress();
     }
 }

@@ -3,18 +3,12 @@ i
 9MVPJoinAlerts/src/main/java/jericraft/chalwk/Message.java,0\7\075e45f48af0a79694f741ea4b2791d36d17e1f1
 ]
 -iSpy/src/main/java/jericraft/chalwk/ispy.java,6\5\6549c84ba313bdfe1c7f60ee73895c245be70ea9
-f
-6MVPJoinAlerts/src/main/java/jericraft/chalwk/main.java,f\b\fbb9884177ae3ad76b01fdbb77de40bd850caa53
 O
 MVPJoinAlerts/MVPJoinAlerts.iml,4\6\46baf58b958c2c5925cf777d841bdf2ecd44511d
-l
-<Health Regeneration/src/main/java/jericraft/chalwk/main.java,c\4\c4341cc0cf660166a976f8c0e1cc0563904f6883
 K
 Health Regeneration/pom.xml,5\2\52eff8e7afd5e645713a3c56c9bb22b02a1f9b08
 S
 #.idea/sonarlint/issuestore/index.pb,9\f\9fe84ebb15faf917b7def6236dba604453cc61e0
-e
-5WordShuffler/src/main/java/jericraft/chalwk/main.java,8\f\8f6f145691ae0f104afb60c470c68910e97c6216
 G
 WordShuffler/.gitignore,9\4\94ff06a45f0c740998e6bedc05975734c2460921
 D
@@ -27,8 +21,6 @@ F
 Expressions/.gitignore,6\e\6e8ec4d99de1649a7216871106e040ccc2eafef5
 C
 Expressions/pom.xml,f\0\f0f24ff5f539c760e40980177e91e3f6b66fb882
-d
-4Expressions/src/main/java/jericraft/chalwk/main.java,d\9\d9b0ee8665b32686af2a88d503037b24821fcedf
 i
 9SpawnWhereKilled/src/main/java/jericraft/chalwk/main.java,b\0\b089f4efabbed74d0bff6b63590d6aa3c9dd6832
 G
@@ -39,8 +31,6 @@ D
 .SpawnWhereKilled/src/main/resources/plugin.yml,e\e\ee2331471688e54a9102559252e6d998375c282f
 H
 SpawnWhereKilled/pom.xml,6\d\6df40cbfcaabc33867adf2477066811697aec18f
-e
-5Night Vision/src/main/java/jericraft/chalwk/main.java,f\8\f89508cd4503eb2785642f4798533804d21e4339
 b
 2iSpy/src/main/java/jericraft/chalwk/ispyFiles.java,1\9\1918e503dfb2aa200534bfea657c8bff195a5c5a
 d
@@ -51,9 +41,33 @@ N
 Health Regeneration/.gitignore,5\4\543610f066c7073e137938a9d2e436b7169618e8
 K
 SpawnWhereKilled/.gitignore,1\a\1af5c80f3de3e57e27033c676f34167c40447507
-F
-HealCommand/.gitignore,b\5\b547822bfec830eae0012e8edb9d48993935a632
-d
-4HealCommand/src/main/java/jericraft/chalwk/main.java,5\7\57029870588d6ddc3ef468c234dcbd4f40626c6c
-h
-8HealCommand/src/main/java/commands/TutorialCommands.java,a\9\a9161c0a0ce7355ddf672db3ae9228a406193a9f
+_
+/BlockDuplicateIPs/src/main/resources/config.yml,4\1\41caed1263490d4215139c3277bdc829a43e76a0
+_
+/BlockDuplicateIPs/src/main/resources/plugin.yml,5\7\57483b1b13af4f98afe3f8c3bd46bfb6f08dd645
+I
+BlockDuplicateIPs/pom.xml,b\6\b68c0368ded456c1f862820e24809fbb7c78b934
+k
+;Expressions/src/main/java/jericraft/chalwk/Expressions.java,8\5\85fe3a3aa95bb2eade50f530394dc590ab7e7298
+z
+JHealth Regeneration/src/main/java/jericraft/chalwk/HealthRegeneration.java,d\a\dabceedbce319c85208b67988916864bdb9d3a7d
+w
+G.idea/libraries/Maven__org_spigotmc_spigot_api_1_16_1_R0_1_SNAPSHOT.xml,7\c\7c8057dc9289067b9133995926c7c4b6fb8a35a9
+[
++MVPJoinAlerts/src/main/resources/plugin.yml,5\2\52c8ec665164b4fcb851defd7b6ac5ff9685f4ce
+m
+=WordShuffler/src/main/java/jericraft/chalwk/WordShuffler.java,8\f\8fae636518e7c794c10884173fa56539d9429b4f
+Z
+*WordShuffler/src/main/resources/plugin.yml,8\c\8cdf0f6593e58dd9bf195f039ee49bd11721b994
+o
+?MVPJoinAlerts/src/main/java/jericraft/chalwk/mvpjoinalerts.java,9\8\9857597e83138f673be6ceb3421b5a8cd79d7169
+w
+GBlockDuplicateIPs/src/main/java/jericraft/chalwk/BlockDuplicateIPs.java,e\a\eae01d0a5d16e9aac371e6e200394f00cb4b8e00
+l
+<Night Vision/src/main/java/jericraft/chalwk/NightVision.java,4\7\47aef0f769ca2bee8eb2f371573ea748e2d7f5b6
+a
+1HealMe/src/main/java/jericraft/chalwk/HealMe.java,f\2\f2bb867dd1eb66d541e586bf05ca5aa95fafd5d8
+p
+@HealMe/src/main/java/jericraft/chalwk/command/HealMeCommand.java,9\9\9919dd339195fe5efd487e40623fb960e47182e9
+a
+1Magnet/src/main/java/jericraft/chalwk/magnet.java,2\8\28cd7b145f43872a478ca4944aff38a2e3be7856

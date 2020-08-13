@@ -85,9 +85,7 @@ public class mvpjoinalerts extends JavaPlugin implements Listener {
             String Str = message.replace("%name%", event.getPlayer().getName());
             String msg = ChatColor.translateAlternateColorCodes('&', Str);
 
-            this.getServer().getScheduler().runTaskLater(this, () -> {
-                getServer().broadcastMessage(msg);
-            }, 20L);
+            this.getServer().getScheduler().runTaskLater(this, () -> getServer().broadcastMessage(msg), 20L);
         }
     }
 

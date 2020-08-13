@@ -1,0 +1,23 @@
+name: HealMe
+version: ${project.version}
+main: jericraft.chalwk.HealMe
+api-version: 1.16
+authors: [Chalwk]
+description: I will heal you!
+website: www.jericraft.enjin.com
+commands:
+  heal:
+    description: Heals the player to max health!
+    usage: /<command>
+    aliases: [healme, healmax]
+  feed:
+    description: Feeds the player to max saturation!
+    usage: /<command>
+    aliases: [feedme, feedmax]
+permissions:
+  healme.heal:
+    description: Heals the player to max health
+    default: op
+  healme.feed:
+    description: Feeds the player to max saturation
+    default: op

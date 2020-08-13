@@ -12,6 +12,8 @@
         <module name="WordShuffler" />
         <module name="Night Vision" />
         <module name="SpawnWhereKilled" />
+        <module name="Magnet" />
+        <module name="HealMe" />
         <module name="Expressions" />
         <module name="BlockDuplicateIPs" />
         <module name="Health Regeneration" />
@@ -22,8 +24,10 @@
       <module name="CommandManager" target="1.8" />
       <module name="Expressions" target="1.8" />
       <module name="HealCommand" target="1.8" />
+      <module name="HealMe" target="1.8" />
       <module name="Health Regeneration" target="1.8" />
       <module name="iSpy" target="1.8" />
+      <module name="Magnet" target="1.8" />
       <module name="MVPJoinAlerts" target="1.8" />
       <module name="Night Vision" target="1.8" />
       <module name="Random J" target="1.8" />

@@ -53,15 +53,17 @@ public class NightVision extends JavaPlugin implements Listener {
                     if (player.hasPotionEffect(PotionEffectType.NIGHT_VISION)) {
                         player.sendMessage(ChatColor.translateAlternateColorCodes('&', this.toggle_off));
                         player.removePotionEffect(PotionEffectType.NIGHT_VISION);
+                        return true;
                     }
 
                     player.sendMessage(ChatColor.translateAlternateColorCodes('&', this.toggle_on));
                     player.addPotionEffect(new PotionEffect(PotionEffectType.NIGHT_VISION, 100000, 1));
+                    return true;
                 } else {
                     player.sendMessage(ChatColor.translateAlternateColorCodes('&', this.no_permission));
+                    return true;
                 }
             }
-            return false;
         }
         return true;
     }

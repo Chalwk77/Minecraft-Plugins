@@ -1,0 +1,9 @@
+command: 'magnet'
+max-distance: 8
+permission-node: 'magnet.use'
+messages:
+  toggle-on: '&7[&4&lMagnet]&7&l] &eYou have toggled magnet on'
+  already-on: 'Magnet is already on!'
+
+  toggle-off: '&7[&4&lMagnet]&7&l] &eYou have toggled magnet off'
+  already-off: 'Magnet is already off!'
