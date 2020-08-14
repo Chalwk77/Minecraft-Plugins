@@ -19,18 +19,14 @@ public final class BlockDuplicateIPs extends JavaPlugin implements Listener {
     public void onEnable() {
         this.getServer().getPluginManager().registerEvents(this, this);
         this.saveDefaultConfig();
-        this.SaveWhitelist();
+        List<String> whitelistedIP = this.getConfig().getStringList("settings.whitelist");
+        for (int i = 0; i < whitelistedIP.size(); i++) {
+            whitelist.add(whitelistedIP.get(i));
+        }
     }
 
     public void onDisable() {
 
-    }
-
-    public void SaveWhitelist() {
-        List<String> whitelistedIP = this.getConfig().getStringList("settings.whitelist");
-        for (String IP : whitelistedIP) {
-            whitelist.add(IP);
-        }
     }
 
     @EventHandler(
@@ -46,15 +42,17 @@ public final class BlockDuplicateIPs extends JavaPlugin implements Listener {
             if (p.getUniqueId() != newPlayerUUID) {
                 String ip = getIP(p);
                 if (ip.equals(NewPlayerIP)) {
+
                     boolean whitelisted = false;
                     for (String whitelistedIP : whitelist) {
                         if (NewPlayerIP.equals(whitelistedIP)) {
                             whitelisted = true;
                         }
                     }
+
                     if (!whitelisted) {
-                        String reason = this.getConfig().getString("reason");
-                        String action = this.getConfig().getString("default-action");
+                        String reason = this.getConfig().getString("settings.reason");
+                        String action = this.getConfig().getString("settings.default-action");
                         if (action.equals("kick")) {
                             NewPlayer.kickPlayer(reason);
                         } else if (action.equals("ban")) {
