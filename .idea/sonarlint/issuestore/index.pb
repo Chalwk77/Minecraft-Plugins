@@ -41,10 +41,6 @@ N
 Health Regeneration/.gitignore,5\4\543610f066c7073e137938a9d2e436b7169618e8
 K
 SpawnWhereKilled/.gitignore,1\a\1af5c80f3de3e57e27033c676f34167c40447507
-_
-/BlockDuplicateIPs/src/main/resources/config.yml,4\1\41caed1263490d4215139c3277bdc829a43e76a0
-_
-/BlockDuplicateIPs/src/main/resources/plugin.yml,5\7\57483b1b13af4f98afe3f8c3bd46bfb6f08dd645
 I
 BlockDuplicateIPs/pom.xml,b\6\b68c0368ded456c1f862820e24809fbb7c78b934
 k
@@ -71,3 +67,21 @@ p
 @HealMe/src/main/java/jericraft/chalwk/command/HealMeCommand.java,9\9\9919dd339195fe5efd487e40623fb960e47182e9
 a
 1Magnet/src/main/java/jericraft/chalwk/magnet.java,2\8\28cd7b145f43872a478ca4944aff38a2e3be7856
+T
+$HealMe/src/main/resources/config.yml,0\f\0f9fabe4c02721c2330f23fb94975a8d96355f07
+T
+$HealMe/src/main/resources/plugin.yml,2\d\2d5ee5798cf0e75c99bcddc4b1193dbe6eabc29c
+>
+HealMe/pom.xml,a\6\a6fbb68e4844d9c12afb7f5f0e45a2f9f10d4f3f
+T
+$Magnet/src/main/resources/config.yml,e\d\ed9ee99b3ebf0bf5ae46834bd1787048a201e4d4
+T
+$Magnet/src/main/resources/plugin.yml,2\5\2583a32584809bc7f70e473a1f94e8f9d57ec4cf
+A
+Magnet/.gitignore,d\f\df45c21a4322ba5d1cdc8decff3dfc9781dd51e6
+>
+Magnet/pom.xml,3\5\3524869824810a1734b35ba488fb21f0794d33bf
+L
+BlockDuplicateIPs/.gitignore,0\1\01916346e5f3da7c6a5eba1f80df46ab108e8ce8
+A
+HealMe/.gitignore,c\b\cb7bdbd03bc84bf9b40c7aee85561573a705c8ec

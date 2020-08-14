@@ -1,8 +1,6 @@
 settings:
   # Valid Actions: 'kick' & 'ban'
-  default_action: 'kick'
-  # In minutes - Set to zero to ban permanently (ignored if default_action is set to 'kick').
-  bantimme: 1
+  default-action: 'kick'
   reason: 'Duplicate IP'
   whitelist:
     - 127.0.0.1

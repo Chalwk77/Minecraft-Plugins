@@ -1,2 +1,20 @@
 
-n	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(¿ç²Ûüÿÿÿÿ8×Ü¶Î¾.
+\
+java:S1161":Add the "@Override" annotation above this method signature(âºˆ¾úÿÿÿÿ8Ü©ºÏ¾.
+n
+java:S3776 "RRefactor this method to reduce its Cognitive Complexity from 35 to the 15 allowed.(´Î‹H8Ü©ºÏ¾.
+Q
+java:S3740S"/Provide the parametrized type for this generic.(†Ò–ÿÿÿÿÿ8Ü©ºÏ¾.
+o
+java:S3776M"RRefactor this method to reduce its Cognitive Complexity from 45 to the 15 allowed.(“–ış8Ü©ºÏ¾.
+L
+java:S3740"/Provide the parametrized type for this generic.(äÖìä8Ü©ºÏ¾.
+]
+java:S1119P";Refactor the code to remove this label and the need for it.(Î¸Ï¯øÿÿÿÿ8Ü©ºÏ¾.
+Q
+java:S3740N"/Provide the parametrized type for this generic.(ìûÆıúÿÿÿÿ8Ü©ºÏ¾.
+i	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(Ô¢·ô8„¦ÈÎ¾.
+r	java:S117S"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(†Ò–ÿÿÿÿÿ8Ü©ºÏ¾.
+V
+java:S1161 ":Add the "@Override" annotation above this method signature(´Î‹H8Ü©ºÏ¾.
+r	java:S117N"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ìûÆıúÿÿÿÿ8Ü©ºÏ¾.
