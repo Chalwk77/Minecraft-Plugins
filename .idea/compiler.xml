@@ -13,6 +13,7 @@
         <module name="Night Vision" />
         <module name="SpawnWhereKilled" />
         <module name="Magnet" />
+        <module name="DynamicPingKicker" />
         <module name="HealMe" />
         <module name="Expressions" />
         <module name="BlockDuplicateIPs" />
@@ -22,6 +23,7 @@
     <bytecodeTargetLevel>
       <module name="BlockDuplicateIPs" target="1.8" />
       <module name="CommandManager" target="1.8" />
+      <module name="DynamicPingKicker" target="1.8" />
       <module name="Expressions" target="1.8" />
       <module name="HealCommand" target="1.8" />
       <module name="HealMe" target="1.8" />

@@ -1,0 +1,47 @@
+##################################################
+# Dynamic Ping Kicker config.yml file
+# Dynamic Ping Kicker, Copyright, 2020 Jericho Crosby <jericho.crosby227@gmail.com>
+######################################################################################
+
+# Players will be kicked after this many warnings:
+max-warnings: 5
+
+# Checks done every check-interval seconds:
+check-interval: 25
+
+# If the players ping has been stable for this amount of time, their warnings will be reset.
+grace-period: 30
+
+# Players/Groups with this permission nodes will be ignored
+ignore-permission: "dynamicpingkicker.ignore"
+
+limits:
+  # Mod will start ping kicking if there are 1 to 4 players (if 750+ ping):
+  1:
+    max-ping: 750
+    min-players: 1
+    max-players: 4
+    # Mod will start ping kicking if there are 5 to 8 players (if 450+ ping):
+  2:
+    max-ping: 450
+    min-players: 5
+    max-players: 8
+    # Mod will start ping kicking if there are 9 to 12 players (if 375+ ping):
+  3:
+    max-ping: 375
+    min-players: 9
+    max-players: 12
+    # Mod will start ping kicking if there are 13 to 16 players (if 200+ ping):
+  4:
+    max-ping: 200
+    min-players: 13
+    max-players: 16
+
+messages:
+  warn:
+    - '&7--- [ &4HIGH PING WARNING &7] ---'
+    - '&eYour ping is too high! Limit: %limit% (ms) Your Ping: %ping% (ms)'
+    - '&ePlease try to lower it if possible'
+  kick:
+    - '&7--- &4PING KICK &7---'
+    - '&a%name% &ewas kicked for high ping. Limit: %limit% (ms) Their Ping: %ping% (ms)'

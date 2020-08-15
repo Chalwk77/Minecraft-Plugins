@@ -1,0 +1,11 @@
+name: DynamicPingKicker
+version: ${project.version}
+main: jericraft.chalwk.DynamicPingKicker
+api-version: 1.16
+authors: [Chalwk]
+description: An advanced mod that kicks players for high Ping.
+website: jericraft.enjin.com
+permissions:
+  dynamicpingkicker.use:
+    description: Players with this permission are exempt from ping checks
+    default: op
