@@ -1,0 +1,7 @@
+command: 'flip'
+flips: 100000000
+output:
+  - '&7[&5COIN FLIP RESULTS&7]'
+  - '&eHeads: &8%headcount%&e/&8%flips%&e - &8%heads_percent%%'
+  - '&eTails: &8%tailcount%&e/%flips%&e - &7%tails_percent%%'
+  - '&eThis took &8%time%&e seconds'

@@ -1,0 +1,15 @@
+name: FlipACoin
+version: ${project.version}
+main: jericraft.chalwk.FlipACoin
+api-version: 1.16
+authors: [Chalwk]
+description: A plugin that lets you flip a text-based virtual coin with a simple command.
+website: jericraft.net.nz
+commands:
+  flip:
+    description: Flips a coin! Heads or tails?
+    usage: /<command>
+permissions:
+  flipacoin.use:
+    description: Grants access to flip-a-coin command
+    default: op

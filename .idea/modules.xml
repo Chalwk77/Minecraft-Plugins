@@ -5,6 +5,7 @@
       <module fileurl="file://$PROJECT_DIR$/BlockDuplicateIPs/BlockDuplicateIPs.iml" filepath="$PROJECT_DIR$/BlockDuplicateIPs/BlockDuplicateIPs.iml" />
       <module fileurl="file://$PROJECT_DIR$/DynamicPingKicker/DynamicPingKicker.iml" filepath="$PROJECT_DIR$/DynamicPingKicker/DynamicPingKicker.iml" />
       <module fileurl="file://$PROJECT_DIR$/Expressions/Expressions.iml" filepath="$PROJECT_DIR$/Expressions/Expressions.iml" />
+      <module fileurl="file://$PROJECT_DIR$/FlipACoin/FlipACoin.iml" filepath="$PROJECT_DIR$/FlipACoin/FlipACoin.iml" />
       <module fileurl="file://$PROJECT_DIR$/HealCommand/HealCommand.iml" filepath="$PROJECT_DIR$/HealCommand/HealCommand.iml" />
       <module fileurl="file://$PROJECT_DIR$/HealMe/HealMe.iml" filepath="$PROJECT_DIR$/HealMe/HealMe.iml" />
       <module fileurl="file://$PROJECT_DIR$/Health Regeneration/Health Regeneration.iml" filepath="$PROJECT_DIR$/Health Regeneration/Health Regeneration.iml" />
