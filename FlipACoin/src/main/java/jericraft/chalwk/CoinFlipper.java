@@ -1,7 +1,6 @@
 package jericraft.chalwk;
 
 import org.bukkit.ChatColor;
-import org.bukkit.entity.Player;
 import org.bukkit.command.Command;
 import org.bukkit.command.CommandSender;
 import org.bukkit.command.CommandExecutor;
@@ -10,14 +9,12 @@ import org.bukkit.configuration.file.FileConfiguration;
 import java.time.Duration;
 import java.time.Instant;
 import java.util.List;
+import java.util.Random;
 import java.util.regex.Pattern;
 
 public class CoinFlipper implements CommandExecutor {
 
     private final FileConfiguration config;
-
-    int headcount = 0;
-    int tailcount = 0;
 
     public CoinFlipper(FlipACoin plugin) {
         this.config = plugin.getConfig();
@@ -28,16 +25,20 @@ public class CoinFlipper implements CommandExecutor {
         if (cmd.getName().equalsIgnoreCase("flip")) {
             if (sender.hasPermission("flipacoin.use")) {
 
+                int headcount = 0;
+                int tailcount = 0;
                 int flips = config.getInt("flips");
                 sender.sendMessage("Flipping " + flips + " times...");
+
+                Random rand = new Random();
 
                 Instant start = Instant.now();
                 List<String> list = config.getStringList("output");
                 for (int i = 0; i < flips; i++) {
-                    int x = (int) (Math.random() * 2);
-                    if (x == 0) {
+                    int x = rand.nextInt(11);
+                    if (x <= 4) {
                         headcount++;
-                    } else if (x == 1) {
+                    } else {
                         tailcount++;
                     }
                 }
