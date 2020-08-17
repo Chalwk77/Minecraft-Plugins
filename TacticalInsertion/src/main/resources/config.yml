@@ -1,0 +1,30 @@
+# Tactical Insertion config.yml
+# Tactical Insertion, Copyright, 2020 Jericho Crosby <jericho.crosby227@gmail.com>
+
+# Command to activate tac-insert:
+command: 'ti'
+
+# Tac-insert command aliases:
+command-aliases:
+  - 'tacinsert'
+  - 'tacticalinsertion'
+  - 'tacinsertion'
+  - 'tacticalinsert'
+
+# Message sent the the player when they execute the tac-insert command:
+on-execute: '&7[&aTac-Insert&7] &eCoordinates set to X: %x%, Y: %y%, Z: %z%'
+
+# Players can use tac-insert this many times per life:
+# Useful if they change their mind about the tac-insert location.
+insertions-per-life: 5
+
+no-inserts-left: '&7[&aTac-Insert&7] &eToo late! Tac-Insert coordinates already set for this life.'
+
+# Broadcast a server-wide message when someone uses tac-insert command? (true = yes, false = no)
+broadcast: true
+
+# Server-wide broadcast message:
+broadcast-message: '&7[&aTac-Insert&7] &5%name% &eused a Tac-Insert'
+
+# Permission-node required to execute tac-insert command:
+permission-node: 'tacinsert.use'

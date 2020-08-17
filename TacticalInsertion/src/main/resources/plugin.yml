@@ -1,0 +1,7 @@
+name: TacticalInsertion
+version: ${project.version}
+main: jericraft.chalwk.TacInsert
+api-version: 1.16
+authors: [Chalwk]
+description: Set your next Spawn Point with a custom command!
+website: jericraft.net.nz

@@ -18,6 +18,7 @@
         <module name="DynamicPingKicker" />
         <module name="HealMe" />
         <module name="Expressions" />
+        <module name="TacticalInsertion" />
         <module name="BlockDuplicateIPs" />
       </profile>
     </annotationProcessing>
@@ -36,6 +37,7 @@
       <module name="Night Vision" target="1.8" />
       <module name="Random J" target="1.8" />
       <module name="SpawnWhereKilled" target="1.8" />
+      <module name="TacticalInsertion" target="1.8" />
       <module name="test" target="1.8" />
       <module name="WordShuffler" target="1.8" />
     </bytecodeTargetLevel>

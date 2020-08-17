@@ -15,6 +15,7 @@
       <module fileurl="file://$PROJECT_DIR$/Night Vision/Night Vision.iml" filepath="$PROJECT_DIR$/Night Vision/Night Vision.iml" />
       <module fileurl="file://$PROJECT_DIR$/Plugins/Plugins.iml" filepath="$PROJECT_DIR$/Plugins/Plugins.iml" />
       <module fileurl="file://$PROJECT_DIR$/SpawnWhereKilled/SpawnWhereKilled.iml" filepath="$PROJECT_DIR$/SpawnWhereKilled/SpawnWhereKilled.iml" />
+      <module fileurl="file://$PROJECT_DIR$/TacticalInsertion/TacticalInsertion.iml" filepath="$PROJECT_DIR$/TacticalInsertion/TacticalInsertion.iml" />
       <module fileurl="file://$PROJECT_DIR$/WordShuffler/WordShuffler.iml" filepath="$PROJECT_DIR$/WordShuffler/WordShuffler.iml" />
       <module fileurl="file://$PROJECT_DIR$/iSpy/iSpy.iml" filepath="$PROJECT_DIR$/iSpy/iSpy.iml" />
     </modules>
