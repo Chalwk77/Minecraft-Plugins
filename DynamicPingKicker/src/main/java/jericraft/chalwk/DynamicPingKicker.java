@@ -27,6 +27,7 @@ public final class DynamicPingKicker extends JavaPlugin implements Listener {
 
     ConfigurationSection config = this.getConfig();
     String ignore_perm = config.getString("ignore-permission");
+
     int grade_period = config.getInt("grace-period");
     int interval = config.getInt("check-interval");
     int max_warnings = config.getInt("max-warnings");
@@ -34,7 +35,7 @@ public final class DynamicPingKicker extends JavaPlugin implements Listener {
     List<String> kick_messages = config.getStringList("messages.kick");
     List<String> warn_messages = config.getStringList("messages.warn");
 
-    Set<String> limits = config.getKeys(false);
+    Set<String> limits = config.getConfigurationSection("limits").getKeys(false);
 
     @Override
     public void onEnable() {
@@ -133,6 +134,7 @@ public final class DynamicPingKicker extends JavaPlugin implements Listener {
     private int getPingLimit() {
         int count = 0;
         for (String key : limits) {
+            System.out.println("KEY: " + key);
             int max_ping = config.getInt("limits." + key + ".max-ping");
             int min = config.getInt("limits." + key + ".min-players");
             int max = config.getInt("limits." + key + ".max-players");
