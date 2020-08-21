@@ -1,7 +1,0 @@
-name: SpawnWhereKilled
-version: ${project.version}
-main: jericraft.chalwk.main
-api-version: 1.16
-authors: [Chalwk]
-description: You will respawn at the coordinates of your death location
-website: www.jericraft.enjin.com
