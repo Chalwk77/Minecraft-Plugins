@@ -25,10 +25,16 @@ public final class DynamicPingKicker extends JavaPlugin implements Listener {
 
     Map<UUID, int[]> timer = new HashMap<>();
 
-    ConfigurationSection config = this.getConfig().getConfigurationSection("limits");
+    ConfigurationSection config = this.getConfig();
     String ignore_perm = config.getString("ignore-permission");
     int grade_period = config.getInt("grace-period");
     int interval = config.getInt("check-interval");
+    int max_warnings = config.getInt("max-warnings");
+
+    List<String> kick_messages = config.getStringList("messages.kick");
+    List<String> warn_messages = config.getStringList("messages.warn");
+
+    Set<String> limits = config.getKeys(false);
 
     @Override
     public void onEnable() {
@@ -94,10 +100,8 @@ public final class DynamicPingKicker extends JavaPlugin implements Listener {
                         if (ping >= current_limit) {
                             grace = 0;
                             strikes++;
-                            int max_warnings = config.getInt("max-warnings");
                             if (strikes < max_warnings) {
-                                List<String> list = config.getStringList("messages.warn");
-                                for (String str : list) {
+                                for (String str : warn_messages) {
                                     str = str.replaceAll(Pattern.quote("%limit%"), Integer.toString(current_limit));
                                     str = str.replaceAll(Pattern.quote("%ping%"), Integer.toString(ping));
                                     str = ChatColor.translateAlternateColorCodes('&', str);
@@ -105,9 +109,8 @@ public final class DynamicPingKicker extends JavaPlugin implements Listener {
                                 }
                             } else {
                                 Bukkit.getScheduler().runTask(this, () -> p.kickPlayer("&4&lHigh Ping"));
-                                List<String> msgs = config.getStringList("messages.kick");
                                 String name = p.getDisplayName();
-                                for (String str : msgs) {
+                                for (String str : kick_messages) {
                                     str = str.replaceAll(Pattern.quote("%name%"), name);
                                     str = str.replaceAll(Pattern.quote("%limit%"), Integer.toString(current_limit));
                                     str = str.replaceAll(Pattern.quote("%ping%"), Integer.toString(ping));
@@ -129,18 +132,15 @@ public final class DynamicPingKicker extends JavaPlugin implements Listener {
 
     private int getPingLimit() {
         int count = 0;
-        if (config != null) {
-            Set<String> keys = config.getKeys(false);
-            for (String key : keys) {
-                int max_ping = config.getInt("limits." + key + ".max-ping");
-                int min = config.getInt("limits." + key + ".min-players");
-                int max = config.getInt("limits." + key + ".max-players");
-                for (Player ignored : this.getServer().getOnlinePlayers()) {
-                    count++;
-                }
-                if (count >= min && count <= max) {
-                    return max_ping;
-                }
+        for (String key : limits) {
+            int max_ping = config.getInt("limits." + key + ".max-ping");
+            int min = config.getInt("limits." + key + ".min-players");
+            int max = config.getInt("limits." + key + ".max-players");
+            for (Player ignored : this.getServer().getOnlinePlayers()) {
+                count++;
+            }
+            if (count >= min && count <= max) {
+                return max_ping;
             }
         }
         return 1000;
