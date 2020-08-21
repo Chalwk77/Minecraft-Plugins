@@ -25,13 +25,16 @@ public final class DynamicPingKicker extends JavaPlugin implements Listener {
 
     Map<UUID, int[]> timer = new HashMap<>();
 
+    ConfigurationSection config = this.getConfig().getConfigurationSection("limits");
+    String ignore_perm = config.getString("ignore-permission");
+    int grade_period = config.getInt("grace-period");
+    int interval = config.getInt("check-interval");
+
     @Override
     public void onEnable() {
         this.saveDefaultConfig();
         this.getServer().getPluginManager().registerEvents(this, this);
-        this.getServer().getScheduler().runTaskTimerAsynchronously(this, () -> {
-            onTick();
-        }, 0, 20L);
+        this.getServer().getScheduler().runTaskTimerAsynchronously(this, this::onTick, 0, 20L);
         for (Player p : this.getServer().getOnlinePlayers()) {
             InitPlayer(p);
         }
@@ -66,7 +69,6 @@ public final class DynamicPingKicker extends JavaPlugin implements Listener {
     private void onTick() {
 
         for (Player p : this.getServer().getOnlinePlayers()) {
-            String ignore_perm = this.getConfig().getString("ignore-permission");
             if (!p.hasPermission(ignore_perm)) {
 
                 UUID uuid = p.getPlayer().getUniqueId();
@@ -79,12 +81,10 @@ public final class DynamicPingKicker extends JavaPlugin implements Listener {
                 int grace = params[2];
                 grace++;
 
-                int grade_period = this.getConfig().getInt("grace-period");
                 if (grace >= grade_period) {
                     strikes = 0;
                 }
 
-                int interval = this.getConfig().getInt("check-interval");
                 if (time_lapsed >= interval) {
                     time_lapsed = 0;
                     try {
@@ -94,9 +94,9 @@ public final class DynamicPingKicker extends JavaPlugin implements Listener {
                         if (ping >= current_limit) {
                             grace = 0;
                             strikes++;
-                            int max_warnings = this.getConfig().getInt("max-warnings");
+                            int max_warnings = config.getInt("max-warnings");
                             if (strikes < max_warnings) {
-                                List<String> list = this.getConfig().getStringList("messages.warn");
+                                List<String> list = config.getStringList("messages.warn");
                                 for (String str : list) {
                                     str = str.replaceAll(Pattern.quote("%limit%"), Integer.toString(current_limit));
                                     str = str.replaceAll(Pattern.quote("%ping%"), Integer.toString(ping));
@@ -105,9 +105,9 @@ public final class DynamicPingKicker extends JavaPlugin implements Listener {
                                 }
                             } else {
                                 Bukkit.getScheduler().runTask(this, () -> p.kickPlayer("&4&lHigh Ping"));
-                                List<String> l2 = this.getConfig().getStringList("messages.kick");
+                                List<String> msgs = config.getStringList("messages.kick");
                                 String name = p.getDisplayName();
-                                for (String str : l2) {
+                                for (String str : msgs) {
                                     str = str.replaceAll(Pattern.quote("%name%"), name);
                                     str = str.replaceAll(Pattern.quote("%limit%"), Integer.toString(current_limit));
                                     str = str.replaceAll(Pattern.quote("%ping%"), Integer.toString(ping));
@@ -129,13 +129,12 @@ public final class DynamicPingKicker extends JavaPlugin implements Listener {
 
     private int getPingLimit() {
         int count = 0;
-        ConfigurationSection Conf = this.getConfig().getConfigurationSection("limits");
-        if (Conf != null) {
-            Set<String> keys = Conf.getKeys(false);
+        if (config != null) {
+            Set<String> keys = config.getKeys(false);
             for (String key : keys) {
-                int max_ping = Conf.getInt("limits." + key + ".max-ping");
-                int min = Conf.getInt("limits." + key + ".min-players");
-                int max = Conf.getInt("limits." + key + ".max-players");
+                int max_ping = config.getInt("limits." + key + ".max-ping");
+                int min = config.getInt("limits." + key + ".min-players");
+                int max = config.getInt("limits." + key + ".max-players");
                 for (Player ignored : this.getServer().getOnlinePlayers()) {
                     count++;
                 }
