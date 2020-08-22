@@ -15,30 +15,16 @@ grace-period: 30
 # Players/Groups with this permission nodes will be ignored
 ignore-permission: "dynamicpingkicker.ignore"
 
+# Ping Limits are based on current player count: (min players|max players|limit)
 limits:
   # Mod will start ping kicking if there are 1 to 4 players (if 750+ ping):
-  1:
-    max-ping: 750
-    min-players: 1
-    max-players: 4
-    # Mod will start ping kicking if there are 5 to 8 players (if 450+ ping):
-  2:
-    max-ping: 450
-    min-players: 5
-    max-players: 8
-    # Mod will start ping kicking if there are 9 to 12 players (if 375+ ping):
-  3:
-    max-ping: 375
-    min-players: 9
-    max-players: 12
-    # Mod will start ping kicking if there are 13 to 16 players (if 200+ ping):
-  4:
-    max-ping: 200
-    min-players: 13
-    max-players: 16
-
-    # Repeat the structure to add more entries
-#######################################################################################################################
+  - {1, 4, 750}
+  # Mod will start ping kicking if there are 5 to 8 players (if 450+ ping):
+  - {5, 8, 450}
+  # Mod will start ping kicking if there are 9 to 12 players (if 375+ ping):
+  - {9, 12, 375}
+  # Mod will start ping kicking if there are 13 to 16 players (if 200+ ping):
+  - {13, 16, 200}
 
 messages:
   warn:
