@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/AutoMessage/AutoMessage.iml" filepath="$PROJECT_DIR$/AutoMessage/AutoMessage.iml" />
       <module fileurl="file://$PROJECT_DIR$/BlockDuplicateIPs/BlockDuplicateIPs.iml" filepath="$PROJECT_DIR$/BlockDuplicateIPs/BlockDuplicateIPs.iml" />
       <module fileurl="file://$PROJECT_DIR$/DynamicPingKicker/DynamicPingKicker.iml" filepath="$PROJECT_DIR$/DynamicPingKicker/DynamicPingKicker.iml" />
       <module fileurl="file://$PROJECT_DIR$/Expressions/Expressions.iml" filepath="$PROJECT_DIR$/Expressions/Expressions.iml" />

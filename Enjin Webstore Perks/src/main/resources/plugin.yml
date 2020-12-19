@@ -1,0 +1,7 @@
+name: EnjinWebstorePerks
+version: ${project.version}
+main: jericraft.chalwk.EnjinWebstorePerks
+api-version: 1.16
+authors: [ Chalwk ]
+description: Display purchased webstore perks
+website: jericraft.enjin.com

@@ -11,6 +11,7 @@
         <module name="Night Vision" />
         <module name="Magnet" />
         <module name="Health Regeneration" />
+        <module name="AutoMessage" />
         <module name="FlipACoin" />
         <module name="HealCommand" />
         <module name="WordShuffler" />
@@ -22,9 +23,11 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="AutoMessage" target="1.8" />
       <module name="BlockDuplicateIPs" target="1.8" />
       <module name="CommandManager" target="1.8" />
       <module name="DynamicPingKicker" target="1.8" />
+      <module name="Enjin Webstore Perks" target="1.8" />
       <module name="Expressions" target="1.8" />
       <module name="FlipACoin" target="1.8" />
       <module name="HealCommand" target="1.8" />
@@ -38,6 +41,7 @@
       <module name="SpawnWhereKilled" target="1.8" />
       <module name="TacticalInsertion" target="1.8" />
       <module name="test" target="1.8" />
+      <module name="TestPlugin" target="1.8" />
       <module name="WordShuffler" target="1.8" />
     </bytecodeTargetLevel>
   </component>

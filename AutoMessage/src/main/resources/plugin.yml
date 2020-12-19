@@ -1,0 +1,7 @@
+name: AutoMessage
+version: ${project.version}
+main: jericraft.chalwk.automessage
+api-version: 1.16
+authors: [ Chalwk ]
+description: This plugin will automatically broadcast your messages every x seconds
+website: www.jericraft.enjin.com

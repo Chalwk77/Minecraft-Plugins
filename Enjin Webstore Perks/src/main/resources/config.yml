@@ -1,0 +1,14 @@
+##################################################
+# Display Web Store Perks config.yml file
+# Copyright, 2020, Jericho Crosby <jericho.crosby227@gmail.com>
+######################################################################################
+
+command: "perks"
+nodes:
+  - {
+    cmi.command.top: "Top (command)"
+      cmi.command.fly: "Fly (command)"
+      cmi.command.gm.creative: "Creative Mode"
+      cmi.command.god: "God Mode"
+      cmi.command.tp: "Teleportation"
+  }
