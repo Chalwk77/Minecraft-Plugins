@@ -1,3 +1,6 @@
+// Entry Point for EnjinWebstorePerks plugin.
+// Copyright (c) 2020, Jericho Crosby <jericho.crosby227@gmail.com>
+
 package jericraft.chalwk;
 
 import org.bukkit.command.CommandMap;

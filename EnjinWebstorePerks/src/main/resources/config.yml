@@ -1,0 +1,192 @@
+##################################################
+# Display Web Store Perks config.yml file
+# Copyright, 2020, Jericho Crosby <jericho.crosby227@gmail.com>
+######################################################################################
+
+command: "perks"
+
+nodes:
+  # SURVIVAL PERKS:
+  - { pv.use: "Vanish", Price: "10" }
+  - { custom_prefix: "Custom Prefix", Price: "10" }
+  - { custom_suffix: "Custom Suffix", Price: "10" }
+  - { magnet.use: "Magnet", Price: "8" }
+  - { region.manage.greeting: "Region (greeting)", Price: "8" }
+  - { region.manage.farewell: "Region (farewell)", Price: "8" }
+  - { coloured_name: "Coloured Name", Price: "5" }
+  - { chatcontrol.bypass.ad: "Chat URLs (bypass)", Price: "5" }
+  - { chatcontrol.color.underline: "Text Chat Formatting", Price: "3" }
+  - { cmi.command.top: "Top", Price: "3" }
+  - { cmi.command.fly: "Fly", Price: "4" }
+  - { cmi.command.gm.creative: "Creative Mode (restricted)", Price: "55" }
+  - { cmi.command.god: "God mode", Price: "4" }
+  - { cmi.command.tp: "Teleportation", Price: "7" }
+  - { cmi.command.repair: "Repair", Price: "9" }
+  - { cmi.command.repair.all: "Repair All", Price: "10" }
+  - { cmi.command.flyspeed: "Speed Increase (fly)", Price: "4" }
+  - { cmi.command.walkspeed: "Speed Increase (walk)", Price: "4" }
+  - { cmi.command.workbench: "Workbench", Price: "6" }
+  - { cmi.command.seen: "Seen", Price: "6" }
+  - { cmi.command.clear: "Clear Inventory", Price: "4" }
+  - { cmi.command.ptime: "Personal Time", Price: "4" }
+  - { cmi.keepinventory: "Keep Inventory On Death", Price: "5" }
+  - { cmi.keepexp: "Keep XP On Death", Price: "6" }
+  - { cmi.command.feed: "Feed", Price: "6" }
+  - { cmi.command.heal: "Heal", Price: "6" }
+  - { cmi.colors.books.*: "Book Formatting", Price: "3" }
+  - { cmi.command.ext: "Extinguish", Price: "3" }
+  - { cmi.command.tptoggle: "Teleportation (prevent)", Price: "8" }
+  - { cmi.command.ignore: "Ignore Player", Price: "4" }
+  - { cmi.command.setwarp: "Warp Creation", Price: "5" }
+  - { cmi.command.setwarp.unlimited: "Unlimited Warps", Price: "8" }
+  # MAX HP - Health Boosters:
+  - { max_hp_15: "Max HP (15)", Price: "3" }
+  - { max_hp_20: "Max HP (20)", Price: "4" }
+  - { max_hp_25: "Max HP (25)", Price: "5" }
+  - { max_hp_30: "Max HP (30)", Price: "6" }
+  - { max_hp_35: "Max HP (35)", Price: "7" }
+  - { max_hp_40: "Max HP (40)", Price: "8" }
+  - { max_hp_45: "Max HP (45)", Price: "9" }
+  - { max_hp_50: "Max HP (50)", Price: "10" }
+  # JOBS:
+  - { jobs.max.4: "4 max jobs", Price: "3" }
+  - { jobs.max.5: "5 max jobs", Price: "4" }
+  - { jobs.max.6: "6 max jobs", Price: "5" }
+  - { jobs.max.7: "7 max jobs", Price: "6" }
+  - { jobs.boost.all.exp.1: "XP Boost (all jobs)", Price: "15" }
+  - { jobs.boost.all.money.1: "Money Boost (all jobs)", Price: "15" }
+  - { jobs.boost.redstoner.all.1: "Exp/Money Boost (redstoner)", Price: "3" }
+  - { jobs.boost.gardener.all.1: "Exp/Money Boost (gardener)", Price: "3" }
+  - { jobs.boost.woodcutter.all.1: "Exp/Money Boost (woodcutter)", Price: "3" }
+  - { jobs.boost.miner.all.1: "Exp/Money Boost (miner)", Price: "3" }
+  - { jobs.boost.builder.all.1: "Exp/Money Boost (builder)", Price: "3" }
+  - { jobs.boost.digger.all.1: "Exp/Money Boost (digger)", Price: "3" }
+  - { jobs.boost.farmer.all.1: "Exp/Money Boost (farmer)", Price: "3" }
+  - { jobs.boost.hunter.all.1: "Exp/Money Boost (hunter)", Price: "3" }
+  - { jobs.boost.fisherman.all.1: "Exp/Money Boost (fisherman)", Price: "3" }
+  - { jobs.boost.weaponsmith.all.1: "Exp/Money Boost (weaponsmith)", Price: "3" }
+  - { jobs.boost.brewer.all.1: "Exp/Money Boost (brewer)", Price: "3" }
+  - { jobs.boost.enchanter.all.1: "Exp/Money Boost (enchanter)", Price: "3" }
+  # MCMMO - LUCKY ME:
+  - { mcmmo.perks.lucky.acrobatics: "Lucky Me (acrobatics)", Price: "4" }
+  - { mcmmo.perks.lucky.archery: "Lucky Me (archery)", Price: "4" }
+  - { mcmmo.perks.lucky.axes: "Lucky Me (axes)", Price: "4" }
+  - { mcmmo.perks.lucky.excavation: "Lucky Me (excavation)", Price: "4" }
+  - { mcmmo.perks.lucky.fishing: "Lucky Me (fishing)", Price: "4" }
+  - { mcmmo.perks.lucky.herbalism: "Lucky Me (herbalism)", Price: "4" }
+  - { mcmmo.perks.lucky.mining: "Lucky Me (mining)", Price: "4" }
+  - { mcmmo.perks.lucky.repair: "Lucky Me (repair)", Price: "4" }
+  - { mcmmo.perks.lucky.smelting: "Lucky Me (smelting)", Price: "4" }
+  - { mcmmo.perks.lucky.swords: "Lucky Me (swords)", Price: "4" }
+  - { mcmmo.perks.lucky.taming: "Lucky Me (taming)", Price: "4" }
+  - { mcmmo.perks.lucky.unarmed: "Lucky Me (unarmed)", Price: "4" }
+  - { mcmmo.perks.lucky.woodcutting: "Lucky Me (woodcutting)", Price: "4" }
+  # MCMMO - Money/Experience Boosters:
+  - { mcmmo.perks.xp.double.all: "mcMMO Double Experience", Price: "7" }
+  - { mcmmo.perks.xp.triple.all: "mcMMO Triple Experience", Price: "8" }
+  - { mcmmo.perks.xp.quadruple.all: "mcMMO Quadruple Experience", Price: "9" }
+  # MCMMO - Reduce Ability Cooldown Time:
+  - { mcmmo.perks.cooldowns.quartered: "Activation waiting time (quarter)", Price: "4" }
+  - { mcmmo.perks.cooldowns.halved: "Activation waiting time (half)", Price: "5" }
+  - { mcmmo.perks.cooldowns.thirded: "Activation waiting time (third)", Price: "6" }
+  # MCMMO - Ability Activation Time:
+  - { mcmmo.perks.activationtime.fourseconds: "Ability Activation Time (4 sec)", Price: "3" }
+  - { mcmmo.perks.activationtime.eightseconds: "Ability Activation Time (8 sec)", Price: "4" }
+  - { mcmmo.perks.activationtime.twelveseconds: "Ability Activation Time (12 sec)", Price: "5" }
+  # KITS:
+  - { cmi.kit.banner: "name KIT", Price: "6" }
+  - { cmi.kit.clay: "name KIT", Price: "4" }
+  - { cmi.kit.glass: "name KIT", Price: "3" }
+  - { cmi.kit.mobeggs1: "name KIT", Price: "4" }
+  - { cmi.kit.archer: "name KIT", Price: "6" }
+  - { cmi.kit.pyro: "name KIT", Price: "6" }
+  # MONEY:
+  # HEAD DATABASE:
+  - { headdb.open: "Player Head Database", Price: "11" }
+  # DISGUISES (mobs):
+  - { libsdisguises.disguise.iron_golem: "Disguise (iron golem)", Price: "3" }
+  - { libsdisguises.disguise.blaze: "Disguise (blaze)", Price: "3" }
+  - { libsdisguises.disguise.donkey: "Disguise (donkey)", Price: "3" }
+  - { libsdisguises.disguise.giant: "Disguise (giant)", Price: "4" }
+  - { libsdisguises.disguise.elder_guardian: "Disguise (mushroom cow)", Price: "3" }
+  - { libsdisguises.disguise.mushroom_cow: "Disguise (mushroom cow)", Price: "3" }
+  - { libsdisguises.disguise.mule: "Disguise (mule)", Price: "3" }
+  - { libsdisguises.disguise.magma_cube: "Disguise (magma cube)", Price: "3" }
+  - { libsdisguises.disguise.ender_dragon: "Disguise (ender dragon)", Price: "7" }
+  - { libsdisguises.disguise.horse: "Disguise (horse)", Price: "3" }
+  - { libsdisguises.disguise.cow: "Disguise (cow)", Price: "3" }
+  - { libsdisguises.disguise.cave_spider: "Disguise (cave spider)", Price: "3" }
+  - { libsdisguises.disguise.endermite: "Disguise (endermite)", Price: "3" }
+  - { libsdisguises.disguise.enderman: "Disguise (enderman)", Price: "3" }
+  - { libsdisguises.disguise.guardian: "Disguise (guardian)", Price: "3" }
+  - { libsdisguises.disguise.chicken: "Disguise (chicken)", Price: "3" }
+  - { libsdisguises.disguise.ghast: "Disguise (ghast)", Price: "3" }
+  - { libsdisguises.disguise.bat: "Disguise (bat)", Price: "3" }
+  - { libsdisguises.disguise.pig: "Disguise (pig)", Price: "3" }
+  - { libsdisguises.disguise.zombie_pig: "Disguise (zombie pig)", Price: "3" }
+  - { libsdisguises.disguise.ocelot: "Disguise (ocelot)", Price: "3" }
+  - { libsdisguises.disguise.rabbit: "Disguise (rabbit)", Price: "3" }
+  - { libsdisguises.disguise.sheep: "Disguise (sheep)", Price: "3" }
+  - { libsdisguises.disguise.silverfish: "Disguise (silverfish)", Price: "3" }
+  - { libsdisguises.disguise.skeleton: "Disguise (skeleton)", Price: "3" }
+  - { libsdisguises.disguise.skeleton_horse: "Disguise (skeleton horse)", Price: "3" }
+  - { libsdisguises.disguise.slime: "Disguise (slime)", Price: "3" }
+  - { libsdisguises.disguise.snowman: "Disguise (snowman)", Price: "3" }
+  - { libsdisguises.disguise.spider: "Disguise (spider)", Price: "3" }
+  - { libsdisguises.disguise.squid: "Disguise (squid)", Price: "3" }
+  - { libsdisguises.disguise.undead_horse: "Disguise (undead horse)", Price: "3" }
+  - { libsdisguises.disguise.wolf: "Disguise (wolf)", Price: "3" }
+  - { libsdisguises.disguise.zombie: "Disguise (zombie)", Price: "3" }
+  - { libsdisguises.disguise.zombie_villager: "Disguise (zombie villager)", Price: "3" }
+  # DISGUISES (entities):
+  - { libsdisguises.disguise.armor_stand: "Disguise (armor stand)", Price: "3" }
+  - { libsdisguises.disguise.boat: "Disguise (boat)", Price: "3" }
+  - { libsdisguises.disguise.snow_ball: "Disguise (snow ball)", Price: "3" }
+  - { libsdisguises.disguise.small_fireball: "Disguise (small fireball)", Price: "3" }
+  - { libsdisguises.disguise.thrown_exp_bottle: "Disguise (thrown exp bottle)", Price: "3" }
+  - { libsdisguises.disguise.splash_potion: "Disguise (splash potion)", Price: "3" }
+  - { libsdisguises.disguise.arrow: "Disguise (arrow)", Price: "3" }
+  - { libsdisguises.disguise.painting: "Disguise (painting)", Price: "3" }
+  - { libsdisguises.disguise.dropped_item: "Disguise (dropped item)", Price: "4" }
+  - { libsdisguises.disguise.egg: "Disguise (egg)", Price: "3" }
+  - { libsdisguises.disguise.ender_crystal: "Disguise (ender crystal)", Price: "3" }
+  - { libsdisguises.disguise.ender_pearl: "Disguise (ender pearl)", Price: "3" }
+  - { libsdisguises.disguise.primed_tnt: "Disguise (primed tnt)", Price: "3" }
+  - { libsdisguises.disguise.experience_orb: "Disguise (experience orb)", Price: "3" }
+  - { libsdisguises.disguise.falling_block: "Disguise (falling block)", Price: "4" }
+  - { libsdisguises.disguise.fireball: "Disguise (fireball)", Price: "3" }
+  - { libsdisguises.disguise.firework: "Disguise (firework)", Price: "3" }
+  - { libsdisguises.disguise.fishing_hook: "Disguise (fishing hook)", Price: "3" }
+  - { libsdisguises.disguise.item_frame: "Disguise (item frame)", Price: "3" }
+  - { libsdisguises.disguise.leash_hitch: "Disguise (leash hitch)", Price: "3" }
+  - { libsdisguises.disguise.minecart: "Disguise (minecart)", Price: "3" }
+  - { libsdisguises.disguise.minecart_chest: "Disguise (minecart chest)", Price: "3" }
+  - { libsdisguises.disguise.minecart_command: "Disguise (minecart command)", Price: "3" }
+  - { libsdisguises.disguise.minecart_furnace: "Disguise (minecart furnace)", Price: "3" }
+  - { libsdisguises.disguise.minecart_hopper: "Disguise (minecart hopper)", Price: "3" }
+  - { libsdisguises.disguise.minecart_mob_spawner: "Disguise (minecart mob spawner)", Price: "3" }
+  - { libsdisguises.disguise.minecart_tnt: "Disguise (minecart tnt)", Price: "3" }
+  - { libsdisguises.disguise.wither_skull: "Disguise (wither skull)", Price: "3" }
+  # CHAT COLOR GUI:
+  - { chatcontrol.gui.color.dark_red: "Chat Color (dark red)", Price: "4" }
+  - { chatcontrol.gui.color.light_red: "Chat Color (light red)", Price: "4" }
+  - { chatcontrol.gui.color.gold: "Chat Color (gold)", Price: "4" }
+  - { chatcontrol.gui.color.yellow: "Chat Color (yellow)", Price: "4" }
+  - { chatcontrol.gui.color.dark_green: "Chat Color (dark green)", Price: "4" }
+  - { chatcontrol.gui.color.light_green: "Chat Color (light green)", Price: "4" }
+  - { chatcontrol.gui.color.light_blue: "Chat Color (light blue)", Price: "4" }
+  - { chatcontrol.gui.color.aqua: "Chat Color (aqua)", Price: "4" }
+  - { chatcontrol.gui.color.dark_blue: "Chat Color (dark blue)", Price: "4" }
+  - { chatcontrol.gui.color.dark_purple: "Chat Color (dark purple)", Price: "4" }
+  - { chatcontrol.gui.color.purple: "Chat Color (purple)", Price: "4" }
+  - { chatcontrol.gui.color.white: "Chat Color (white)", Price: "4" }
+  - { chatcontrol.gui.color.gray: "Chat Color (gray)", Price: "4" }
+  - { chatcontrol.gui.color.pink: "Chat Color (pink)", Price: "4" }
+  - { chatcontrol.gui.color.black: "Chat Color (black)", Price: "4" }
+  - { chatcontrol.gui.color.bold: "Chat Color (bold)", Price: "5" }
+  - { chatcontrol.gui.color.italic: "Chat Color (italic)", Price: "5" }
+  - { chatcontrol.gui.color.strikethrough: "Chat Color (strikethrough)", Price: "5" }
+  - { chatcontrol.gui.color.underline: "Chat Color (underline)", Price: "5" }
+  # MISC PERKS:
+  - { cmi.command.itemname: "Item Renamer", Price: "9" }
+  - { cmi.command.se: "Sign-Edit", Price: "10" }
