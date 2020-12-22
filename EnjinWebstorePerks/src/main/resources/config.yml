@@ -4,6 +4,13 @@
 ######################################################################################
 
 command: "perks"
+ONRELOAD: "Enjin Webstore Perks - [Configuration Reloaded]"
+RELOAD_PERMISSION: "perks.reload"
+HEADER: "&a========== [PERKS] =========="
+CONTENT: "&b%perks%"
+FOOTER: "&aTotal amount of money spend: $%total%"
+NO_PURCHASES: "You do not have any purchases"
+NO_PERMISSION: "You do not have permission to execute that command"
 
 nodes:
   # SURVIVAL PERKS:
@@ -94,12 +101,12 @@ nodes:
   - { mcmmo.perks.activationtime.eightseconds: "Ability Activation Time (8 sec)", Price: "4" }
   - { mcmmo.perks.activationtime.twelveseconds: "Ability Activation Time (12 sec)", Price: "5" }
   # KITS:
-  - { cmi.kit.banner: "name KIT", Price: "6" }
-  - { cmi.kit.clay: "name KIT", Price: "4" }
-  - { cmi.kit.glass: "name KIT", Price: "3" }
-  - { cmi.kit.mobeggs1: "name KIT", Price: "4" }
-  - { cmi.kit.archer: "name KIT", Price: "6" }
-  - { cmi.kit.pyro: "name KIT", Price: "6" }
+  - { cmi.kit.banner: "banner kit", Price: "6" }
+  - { cmi.kit.clay: "clay kit", Price: "4" }
+  - { cmi.kit.glass: "glass kit", Price: "3" }
+  - { cmi.kit.mobeggs1: "mob eggs kit", Price: "4" }
+  - { cmi.kit.archer: "archer kit", Price: "6" }
+  - { cmi.kit.pyro: "pyro kit", Price: "6" }
   # MONEY:
   # HEAD DATABASE:
   - { headdb.open: "Player Head Database", Price: "11" }

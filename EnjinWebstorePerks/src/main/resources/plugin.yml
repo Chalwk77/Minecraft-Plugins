@@ -5,3 +5,11 @@ api-version: 1.16
 authors: [ Chalwk ]
 description: View purchased webstore perks
 website: jericraft.enjin.com
+commands:
+  enjinwebstoreperks:
+    description: Reload the plugin.
+    usage: /<command> reload
+permissions:
+  enjinwebstoreperks.reload:
+    description: Grants permission to reload the plugin
+    default: op
