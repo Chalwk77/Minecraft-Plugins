@@ -1,0 +1,6 @@
+name: JeriCraft
+version: '${project.version}'
+main: com.jericho.jericraft.Main
+api-version: 1.19
+authors: [ Chalwk ]
+description: The official JeriCraft plugin.

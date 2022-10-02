@@ -1,0 +1,7 @@
+# When enabled, this plugin will listen
+# for torch placements
+Torch-Placement-Enabled: true
+
+Commands:
+  feed: true
+  heal: true

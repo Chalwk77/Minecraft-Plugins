@@ -6,19 +6,21 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="NightVision" />
         <module name="iSpy" />
         <module name="MVPJoinAlerts" />
         <module name="Night Vision" />
         <module name="Magnet" />
         <module name="Health Regeneration" />
+        <module name="HealthRegeneration" />
         <module name="AutoMessage" />
         <module name="FlipACoin" />
         <module name="HealCommand" />
         <module name="WordShuffler" />
         <module name="DynamicPingKicker" />
         <module name="HealMe" />
-        <module name="Expressions" />
         <module name="TacticalInsertion" />
+        <module name="Expressions" />
         <module name="BlockDuplicateIPs" />
       </profile>
     </annotationProcessing>
@@ -33,10 +35,12 @@
       <module name="HealCommand" target="1.8" />
       <module name="HealMe" target="1.8" />
       <module name="Health Regeneration" target="1.8" />
+      <module name="HealthRegeneration" target="1.8" />
       <module name="iSpy" target="1.8" />
       <module name="Magnet" target="1.8" />
       <module name="MVPJoinAlerts" target="1.8" />
       <module name="Night Vision" target="1.8" />
+      <module name="NightVision" target="1.8" />
       <module name="Random J" target="1.8" />
       <module name="SpawnWhereKilled" target="1.8" />
       <module name="TacticalInsertion" target="1.8" />
