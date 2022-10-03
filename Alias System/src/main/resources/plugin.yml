@@ -1,0 +1,6 @@
+name: AliasSystem
+version: '${project.version}'
+main: com.jericho.Main
+api-version: 1.19
+authors: [ Chalwk ]
+description: Keeps a record of names used by a player (based on their UUID)
