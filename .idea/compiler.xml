@@ -9,7 +9,6 @@
         <module name="NightVision" />
         <module name="iSpy" />
         <module name="MVPJoinAlerts" />
-        <module name="com.jericho" />
         <module name="Night Vision" />
         <module name="Magnet" />
         <module name="Health Regeneration" />
@@ -20,8 +19,8 @@
         <module name="WordShuffler" />
         <module name="DynamicPingKicker" />
         <module name="HealMe" />
-        <module name="Expressions" />
         <module name="TacticalInsertion" />
+        <module name="Expressions" />
         <module name="BlockDuplicateIPs" />
       </profile>
     </annotationProcessing>

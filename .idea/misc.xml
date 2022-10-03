@@ -10,7 +10,6 @@
       <list>
         <option value="$PROJECT_DIR$/Random J/pom.xml" />
         <option value="$PROJECT_DIR$/iSpy/pom.xml" />
-        <option value="$PROJECT_DIR$/MVPJoinAlerts/pom.xml" />
         <option value="$PROJECT_DIR$/Health Regeneration/pom.xml" />
         <option value="$PROJECT_DIR$/WordShuffler/pom.xml" />
         <option value="$PROJECT_DIR$/Expressions/pom.xml" />
@@ -24,10 +23,11 @@
         <option value="$PROJECT_DIR$/TacticalInsertion/pom.xml" />
         <option value="$PROJECT_DIR$/AutoMessage/pom.xml" />
         <option value="$PROJECT_DIR$/Display Webstore Perks/pom.xml" />
+        <option value="$PROJECT_DIR$/MVPJoinAlerts/pom.xml" />
       </list>
     </option>
   </component>
-  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_9" default="false" project-jdk-name="13" project-jdk-type="JavaSDK">
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_17" default="true" project-jdk-name="17 (2)" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/out" />
   </component>
 </project>
