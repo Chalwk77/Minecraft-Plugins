@@ -1,13 +1,13 @@
 # MVPJoinAlert config.yml
-# Copyright 2020, Jericho Crosby, <jericho.crosby227@gmail.com>
+# Copyright 2020-2022, Jericho Crosby, <jericho.crosby227@gmail.com>
 
 JoinMessage:
   default:
     enabled: false
     permission: "none"
     message:
-      - "&6%name% &8joined the server!"
+      - "&6$name &8joined the server!"
   VIP:
-    permission: "mvp.vip"
+    permission: "mvp.mvp"
     message:
-      - "&8[&3MVP&8] &2%name% joined the server!"
+      - "&8[&3MVP&8] &2$name joined the server!"

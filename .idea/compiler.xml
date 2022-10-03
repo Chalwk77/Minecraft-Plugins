@@ -9,6 +9,7 @@
         <module name="NightVision" />
         <module name="iSpy" />
         <module name="MVPJoinAlerts" />
+        <module name="com.jericho" />
         <module name="Night Vision" />
         <module name="Magnet" />
         <module name="Health Regeneration" />
@@ -19,14 +20,15 @@
         <module name="WordShuffler" />
         <module name="DynamicPingKicker" />
         <module name="HealMe" />
-        <module name="TacticalInsertion" />
         <module name="Expressions" />
+        <module name="TacticalInsertion" />
         <module name="BlockDuplicateIPs" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="AutoMessage" target="1.8" />
       <module name="BlockDuplicateIPs" target="1.8" />
+      <module name="com.jericho" target="1.8" />
       <module name="CommandManager" target="1.8" />
       <module name="DynamicPingKicker" target="1.8" />
       <module name="Enjin Webstore Perks" target="1.8" />

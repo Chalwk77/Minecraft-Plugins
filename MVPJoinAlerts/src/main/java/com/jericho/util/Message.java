@@ -1,9 +1,9 @@
-package jericraft.chalwk;
+package com.jericho.util;
 
 import java.util.List;
 
 public class Message {
-    private List<String> messages;
+    private final List<String> messages;
 
     public Message(List<String> messages) {
         this.messages = messages;
